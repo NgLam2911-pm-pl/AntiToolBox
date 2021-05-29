@@ -40,11 +40,6 @@ class Loader extends PluginBase implements Listener
             {
                 return;
             }
-            if ($packet->clientId == 0) //Invalid ClientID
-            {
-                $player->close("", $this->config->get("kick-message"));
-                return;
-            }
 
             /**
              * Something about device model check, for example:
