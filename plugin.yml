@@ -1,0 +1,9 @@
+name: AntiToolBox
+main: NgLamVN\AntiToolBox\Loader
+version: 0.1
+api: 3.19.0
+mcpe-protocols: 431
+description: Somehow prevent "some" player using ToolBox client join your server.
+author: NgLamVN
+website: github.com/NgLamVN
+php: [7.4]
